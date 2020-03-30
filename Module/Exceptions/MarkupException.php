@@ -30,7 +30,7 @@ class MarkupException extends OnexException
     {
         switch ($code) {
             case self::NOT_FOUND_MARKUP_CLASS:
-                return 'Не найден класс инициализации наценок для сщщтветствующей схемы';
+                return 'Не найден класс инициализации наценок для соответствующей схемы';
                 break;
             case self::CANT_INIT_MARKUP:
                 return 'Не удалось получить наценки';
